@@ -449,7 +449,7 @@ header.sticky{
         padding: 1rem;
         margin: 1rem;
     }
-    .navbar .active{
+    .navbar.active{
         top: 100%;
     }
     .root{
