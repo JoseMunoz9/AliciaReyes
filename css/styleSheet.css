@@ -35,6 +35,10 @@ header{
     border-bottom: 1px solid transparent;
     transition: all .40s ease;
 }
+.logo img{
+    width: 85px;
+    height: auto;
+}
 .navbar{
     display: flex;
 }
@@ -112,6 +116,7 @@ header.sticky{
     padding: 10px 16%;
     background: var(--bg-color);
     border-bottom: 1px solid #0e1630;
+    transition: .3s;
 }
 .about {
     display: grid;
@@ -135,7 +140,7 @@ header.sticky{
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.about-gri {
+.about-gri{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
@@ -163,13 +168,27 @@ header.sticky{
     font-size: 24px;
     font-weight: 600;
 }
-.services-content{
+.education-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     text-align: center;
     gap: 2rem;
     margin-top: 5rem;
+}
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.services-content img{
+    height: 25%;
+    width: 25%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 .box{
     padding: 45px;
@@ -205,8 +224,8 @@ header.sticky{
     margin-top: 5rem;
 }
 .row img{
-    height: auto;
-    width: 100%;
+    height: 25%;
+    width: 25%;
     border-radius: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -332,6 +351,37 @@ header.sticky{
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
+}
+.last-text .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-text .social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eb4a4a;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.last-text .social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.last-text p .end{
+    position: absolute;
+    color: #eb4a4a;
+    bottom: 35px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .top {
     position: fixed;
